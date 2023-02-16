@@ -3,6 +3,7 @@ import styled from '@emotion/styled';
 export const BoxInfo = styled.ul`
   margin-top: 20px;
   padding: 0px;
+  /* gfh */
 `;
 
 export const Info = styled.li`
