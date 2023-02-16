@@ -24,16 +24,7 @@ export const Chec = styled.span`
   border-radius: 50%;
 
   background-color: ${({ isOnlines }) => {
-    // switch (isOnlines) {
-    //   case true:
-    //     return '#03fd07';
-    //   case false:
-    //     return '#ff0000';
-    // }
-    // isOnlines ? '#03fd07' : '#ff0000';
-    if (isOnlines) {
-      return '#03fd07';
-    } else return '#ff0000';
+    return isOnlines ? '#03fd07' : '#ff0000';
   }};
 `;
 

@@ -21,7 +21,6 @@ export const BoxInfo = styled.ul`
   display: flex;
   justify-content: space-around;
   list-style: none;
-  //   background-color: rgb(255, 255, 255);
   margin: 0px;
   padding: 0px;
 `;
