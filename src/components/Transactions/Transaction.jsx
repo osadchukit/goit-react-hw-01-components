@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { HeaderItem, TableRow, Td, Tr } from './Transactions.styled';
+import { Td, Tr } from './Transactions.styled';
 
 export const Transaction = ({ item: { type, amount, currency } }) => {
   return (

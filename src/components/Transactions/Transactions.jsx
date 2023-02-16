@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import { Transaction } from './Transaction';
+
 import { Table, Tbody, Th, Thead, Tr } from './Transactions.styled';
 
 export const TransactionHistory = ({ items }) => {
@@ -29,20 +30,3 @@ TransactionHistory.protoType = {
     })
   ).isRequired,
 };
-
-// <div>
-//   <table>
-//     {/* <thead> */}
-//     <Tr>
-//       <th>Type</th>
-//       <th>Amount</th>
-//       <th>Currency</th>
-//     </Tr>
-//     {/* </thead> */}
-//     <tbody>
-//       {items.map(item => (
-//         <Transaction item={item} key={item.id} />
-//       ))}
-//     </tbody>
-//   </table>
-// </div>;
