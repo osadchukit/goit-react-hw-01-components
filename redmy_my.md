@@ -6,7 +6,8 @@ create-react-app .
 instal prop-types: https://www.npmjs.com/package/prop-types --------------------
 npm install --save prop-types
 
-import React from 'react'; import PropTypes from 'prop-types';
+import React from 'react'; -------------------------- import PropTypes from
+'prop-types';
 
 <!-- ----------------------------------------- -->
 
