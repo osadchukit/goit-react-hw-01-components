@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { TextInfo, TextValue } from './Statistics.styled';
 
-export const Statistic = ({ stat: { label, percentage } }) => {
+export const Statistics = ({ stat: { label, percentage } }) => {
   return (
     <>
       <TextInfo>{label}</TextInfo>
@@ -10,7 +10,7 @@ export const Statistic = ({ stat: { label, percentage } }) => {
   );
 };
 
-Statistic.protoTypes = {
+Statistics.protoTypes = {
   stat: PropTypes.shape({
     label: PropTypes.string.isRequired,
     percentage: PropTypes.number.isRequired,

@@ -1,13 +1,13 @@
 import PropTypes from 'prop-types';
-import { Chec, TextValue } from './Friends.styled';
+import { Chec, Info, TextValue } from './Friends.styled';
 
 export const FriendListItem = ({ friend: { avatar, name, isOnline } }) => {
   return (
-    <>
+    <Info>
       <Chec isOnlines={isOnline}>{isOnline}</Chec>
       <img src={avatar} alt={avatar} width="40px" />
       <TextValue>{name}</TextValue>
-    </>
+    </Info>
   );
 };
 

@@ -1,15 +1,15 @@
 import PropTypes from 'prop-types';
-import { Statistic } from './Statistics';
+import { Statistics } from './Statistics';
 import { BoxInfo, BoxStatistics, Info } from './Statistics.styled';
 
-export const Statistics = ({ title = 'Upload stats', stats }) => {
+export const StatisticsList = ({ title, stats }) => {
   return (
     <BoxStatistics>
       <h2>{title}</h2>
       <BoxInfo>
         {stats.map(stat => (
           <Info key={stat.id}>
-            <Statistic stat={stat} />
+            <Statistics stat={stat} />
           </Info>
         ))}
       </BoxInfo>
@@ -17,7 +17,7 @@ export const Statistics = ({ title = 'Upload stats', stats }) => {
   );
 };
 
-Statistics.protoType = {
+StatisticsList.protoType = {
   title: PropTypes.string,
   stats: PropTypes.arrayOf(
     PropTypes.shape({
