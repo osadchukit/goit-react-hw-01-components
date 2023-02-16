@@ -11,9 +11,9 @@ export const Thead = styled.thead`
 `;
 
 export const Tr = styled.tr`
-  :nth-child(even) {
+  /* :nth-child(even) {
     background-color: #f2f2f2;
-  }
+  } */
 `;
 
 export const Th = styled.th`

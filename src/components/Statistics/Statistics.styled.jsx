@@ -6,7 +6,6 @@ export const BoxStatistics = styled.section`
   align-items: center;
   margin-top: 20px;
   padding-top: 20px;
-  //   background-color: rgb(255, 255, 255);
   border-radius: 3px;
 `;
 
@@ -14,7 +13,6 @@ export const BoxInfo = styled.ul`
   display: flex;
   justify-content: space-around;
   list-style: none;
-  //   background-color: rgb(255, 255, 255);
   margin: 0px;
   padding: 0px;
 `;
