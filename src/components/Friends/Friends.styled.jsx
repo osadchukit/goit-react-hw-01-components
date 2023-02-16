@@ -3,7 +3,6 @@ import styled from '@emotion/styled';
 export const BoxInfo = styled.ul`
   margin-top: 20px;
   padding: 0px;
-  /* gfh */
 `;
 
 export const Info = styled.li`
@@ -24,14 +23,14 @@ export const Chec = styled.span`
   width: 15px;
   border-radius: 50%;
 
-  background-color: ${({ isOnlines }) => {
+  /* background-color: ${({ isOnlines }) => {
     switch (isOnlines) {
       case true:
         return '#03fd07';
       case false:
         return '#ff0000';
     }
-  }};
+  }}; */
 `;
 
 export const TextValue = styled.span`
