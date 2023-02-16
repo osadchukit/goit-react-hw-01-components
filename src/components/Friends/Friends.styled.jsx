@@ -23,14 +23,14 @@ export const Chec = styled.span`
   width: 15px;
   border-radius: 50%;
 
-  background-color: ${({ isOnlines }) => {
+  /* background-color: ${({ isOnlines }) => {
     switch (isOnlines) {
       case true:
         return '#03fd07';
       case false:
         return '#ff0000';
     }
-  }};
+  }}; */
 `;
 
 export const TextValue = styled.span`

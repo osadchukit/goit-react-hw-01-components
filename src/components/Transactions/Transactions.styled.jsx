@@ -31,15 +31,3 @@ export const Td = styled.td`
   border: 1px solid black;
   padding: 5px 0px 5px 0px;
 `;
-// table, td, th {
-//     border: 1px solid black;
-// }
-
-// table {
-// border-collapse: collapse;
-// width: 100%;
-// }
-
-// th {
-//     height: 50px;
-// }
