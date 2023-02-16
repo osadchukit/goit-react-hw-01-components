@@ -23,14 +23,18 @@ export const Chec = styled.span`
   width: 15px;
   border-radius: 50%;
 
-  /* background-color: ${({ isOnlines }) => {
-    switch (isOnlines) {
-      case true:
-        return '#03fd07';
-      case false:
-        return '#ff0000';
-    }
-  }}; */
+  background-color: ${({ isOnlines }) => {
+    // switch (isOnlines) {
+    //   case true:
+    //     return '#03fd07';
+    //   case false:
+    //     return '#ff0000';
+    // }
+    // isOnlines ? '#03fd07' : '#ff0000';
+    if (isOnlines) {
+      return '#03fd07';
+    } else return '#ff0000';
+  }};
 `;
 
 export const TextValue = styled.span`
