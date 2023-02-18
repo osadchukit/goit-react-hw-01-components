@@ -5,7 +5,7 @@ import { BoxInfo, BoxStatistics, Info } from './Statistics.styled';
 export const StatisticsList = ({ title, stats }) => {
   return (
     <BoxStatistics>
-      <h2>{title}</h2>
+      {title ? <h2>title</h2> : null}
       <BoxInfo>
         {stats.map(stat => (
           <Info key={stat.id}>
